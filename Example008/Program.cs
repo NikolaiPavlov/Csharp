@@ -1,5 +1,5 @@
-﻿int number = Console.ReadLine();
+﻿int number = Convert.ToInt32(Console.ReadLine());
 
-B = number^2;
+int result = number * number;
 
-Console.Write(B);
+Console.Write(result);
