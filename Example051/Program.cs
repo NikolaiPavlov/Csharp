@@ -34,7 +34,7 @@ int FindSumNegativePositionsInArray(int[] inputArray)
 {
     int sum = 0;
 
-    for(int i = 0; i < inputArray.Length; i = i + 2)
+    for(int i = 1; i < inputArray.Length; i = i + 2)
     {
         sum += inputArray[i];
     }
