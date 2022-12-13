@@ -18,7 +18,8 @@ double k2 = Convert.ToInt32(Console.ReadLine());
 
 (double, double) FindDotOnTwoLines(double ba, double ka, double bb, double kb)
 {
-    double x = (bb - ba) / (ka - kb);
+    double x = (bb - ba) 
+             / (ka - kb);
     double y = ka * x + ba;
     return (x, y);
 }
